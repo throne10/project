@@ -39,8 +39,6 @@ public class MainActivity extends Activity {
 		EventBus.getDefault().register(this); 
 		mContext=this;
 		initProcesscheckDevice("检测应用安装版本......");
-		
-		
 		CheckVersion();
 
 	}
