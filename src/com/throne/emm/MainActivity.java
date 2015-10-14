@@ -40,6 +40,7 @@ public class MainActivity extends Activity {
 		mContext=this;
 		initProcesscheckDevice("检测应用安装版本......");
 		
+		
 		CheckVersion();
 
 	}
