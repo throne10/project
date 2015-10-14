@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01000000"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:id="@+id/ll_intruduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapelayout"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/iv_intruduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/intruduction" />
+
+        <Button
+            android:id="@+id/bt_Settingstart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapebutton"
+            android:text="开始设置"
+            android:textColor="#f39800"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_clean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapelayout"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="@drawable/shapebutton"
+            android:text="\t目前默认桌面不是本应用，请先去除默认桌面!!!" />
+
+        <Button
+            android:id="@+id/bt_clean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapebutton"
+            android:text="开始设置"
+            android:textColor="#f39800"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+</RelativeLayout>

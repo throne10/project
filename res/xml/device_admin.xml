@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <uses-policies>
+        <disable-camera />
+
+        <expire-password />
+
+        <limit-password />
+
+        <watch-login />
+
+        <reset-password />
+
+        <force-lock />
+
+        <wipe-data />
+
+        <recover-password />
+
+        <history-password />
+
+        <min-passwordcomplexchars />
+
+        <require-device-encryption />
+
+        <require-storagecard-encryption />
+
+        <allow-wifi />
+
+        <allow-bluetoothmode />
+
+        <encrypted-storage />
+    </uses-policies>
+
+</device-admin>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Project-1.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="device_admin_description">MDM设备管理器</string>
+    <string name="mdm_info">设备管理</string>
+    <string name="uninstall_mdm_warning">\t该设备管理器不允许自行取消激活，若需要请联系管理员提供密码。如果不小心进入这里请重启设备，谢谢配合！</string>
+    <string name="uninstall_mdm_pw">请输入密码</string>
+    <string name="uninstall_mdm_btn">解锁</string>
+    <string name="uninstall_mdm_btn2">点此解锁</string>
+    <string name="uninstall_mdm_pwd_error">管理密码错误！</string>
+    <string name="disable_warning">取消该设备管理器将带来安全管理风险。请取消本次操作!</string>
+
+    <item name="tag_holder" type="id"></item>
+      <item name="tag_downhandler" type="id"></item>
+    
+
+</resources>

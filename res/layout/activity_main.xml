@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E7E6E4"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="0.35"
+        android:background="@drawable/temp" />
+
+    <com.throne.emm.Fragment.MyViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/tabs_rg"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/tab_my_app"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_myapp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="我的应用"
+            android:textColor="@color/selector_tab_text"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/tab_app_list"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_store"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="应用商店"
+            android:textColor="@color/selector_tab_text"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/tab_settings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_setting"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="设置"
+            android:textColor="@color/selector_tab_text"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+</LinearLayout>

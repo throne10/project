@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#55ff</color>
+    <color name="color_text_selected">#828282</color>
+    <color name="color_text_normal">#008aff</color>
+    <color name="white">#fff</color>
+    <color name="c_dialog_divider">#B6B6B6</color>
+    <color name="c_dialog_tip">#030303</color>
+    <color name="c_dialog_background">#E6E6E6</color>
+    <color name="c_dialog_text">#1F70CB</color>
+    <color name="c_cancel_text">#FFFFFF</color>
+    <color name="c_dialog">#E9E6E6</color>
+
+</resources>
